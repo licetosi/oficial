@@ -1,0 +1,561 @@
+html {
+    background-color: #b7e26113;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-device-width: 2000px) {
+    /* .menu { width:600px; } */
+}
+
+
+*::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #C4E47C;
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2a6c24b4;
+}
+
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #f0fadb;
+
+}
+
+.título {
+    font-size: 380%;
+    font-weight: bold;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html,
+body {
+    height: 100%;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.título {
+    display: flex;
+    /*   border:1px solid red; */
+    height: 100%;
+    align-items: center;
+}
+
+svg {
+    display: block;
+    font: 2em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -7%;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #000000;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #73c712b6;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #607944c4;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #000000;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+    stroke: #146911;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+.IMAGEMDOTOPO {
+    width: 8cm;
+}
+
+.IMAGEMDOLOGO {
+    width: 9cm;
+}
+
+
+.IMAGEMDAFOLHA2 {
+    width: 17cm;
+}
+
+
+.IMAGEMDAFOLHA1 {
+    width: 17cm;
+}
+
+.imagensFOLHA {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -300px;
+}
+
+.segundocabeçalho {
+    text-align: center;
+    font-size: 3cm;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0fadb;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #629826;
+    border-radius: 50px;
+    background-size: contain;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #2A6C24;
+    border-color: #ffffff;
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17%;
+}
+
+button a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #ffffff;
+}
+
+
+.DEGRADE1 {
+    color: #C4E47C;
+    background-color: #C4E47C;
+    height: 35px;
+}
+
+.DEGRADE2 {
+    color: #2a6c24b4;
+    background-color: #2a6c24b4;
+    height: 20px;
+}
+
+
+.senai {
+    margin-top: 2%;
+    width: 25%;
+}
+
+.bglhdosenai {
+    background-color: #ffffff;
+}
+
+main {
+    background-color: #b7e26113;
+    padding-top: 10px;
+}
+
+.fraseanimada {
+    
+    margin-top: -1.5%;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    width: 65%;
+    margin-bottom: -1%;
+}
+
+.ivs {
+    position: absolute;
+    top: 100.9%;
+    left: 10%;
+    width: 30%;
+}
+
+.textovs {
+    position: relative;
+    width: 30%;
+    top: 18%;
+    left: 50%;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.senai1 {
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    width: 30%;
+    border-radius: 120%;
+}
+
+.senai2 {
+    position: absolute;
+    top: 170%;
+    width: 30%;
+    right: 15%;
+    border-radius: 120%;
+
+}
+
+.coletaseletiva {
+    position: absolute;
+    top: 220%;
+    left: 37%;
+    font-size: 300%;
+}
+
+.coletaseletivap {
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 232%;
+    font-size: 150%;
+    text-align: center;
+    width: 50%;
+}
+
+.títulofoto {
+    position: absolute;
+    top: 287%;
+    font-size: 300%;
+    left: 34%;
+}
+
+.textofoto{
+    display: flex;
+    position: absolute;
+    left: 9%;
+    top: 300%;
+    font-size: 150%;
+    text-align: center;
+    width: 80%;
+}
+
+.áreasverdes{
+    position: absolute;
+    top: 395%;
+    font-size: 300%;
+    left: 39%;
+}
+
+.áreasverdesp{
+    display: flex;
+    position: absolute;
+    left: 23.5%;
+    top: 406%;
+    font-size: 150%;
+    text-align: center;
+    width: 50%;
+}
+
+
+.especialização{
+    position: absolute;
+    top: 473%;
+    font-size: 300%;
+    left: 32%;
+}
+
+.especializaçãop{
+    display: flex;
+    position: absolute;
+    left: 23.5%;
+    top: 485%;
+    font-size: 150%;
+    text-align: center;
+    width: 50%;
+}
+
+.listinha{
+    position: absolute;
+    left: 25%;
+    top: 503%;
+    font-size: 130%;
+    width: 50%;
+}
+
+.livro{
+    position: absolute;
+    top: 503%;
+    left: 57%;
+    width: 20%;
+}
+
+.fotofoto{
+    position: absolute;
+    border-radius: 50px;
+    border-style: double;
+    border-width: 10px;
+    top: 318%;
+    left: 19%;
+    width: 60%;
+}
+
+.whats2 {
+    left: 15%;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    top: 430%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.whats1 {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    top: 430%;
+    left: 39%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.whats3 {
+    left: 5%;
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 250%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.whats4 {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    top: 430%;
+    left: 63%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.whats5 {
+    width: 30%;
+}
+
+.whats7 {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 250%;
+    left: 36%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.whats6 {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 250%;
+    left: 67%;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+
+
+
+.títulodoação {
+    width: 95%;
+    margin: 2% 0% 0% 5%;
+    color:#146911;
+    font-size: 190%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textopix {
+    position: relative;
+    margin-left: 10%;
+    margin-top: -15%;
+    font-size: 130%;
+    width: 39%;
+}
+
+a {
+    color:#146911;
+}
+
+.linkdoinstituto {
+    font-size: 140%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+
+.rodapepe {
+    background-color: #CFFCB4;
+    height: 16em;
+    width: 100%;
+    position: absolute;
+    top: 557%;
+}
+
+.imf {
+    width: 13%;
+    position: absolute;
+    left: 44%;
+    top: 0%;
+}
+
+.SENAIFIM {
+    position: absolute;
+    top: 15%;
+    margin-left: 12%;
+    width: 10%;
+}
+
+
+.prj {
+    width: 20%;
+    position: absolute;
+    left: 39.9%;
+    top: 65%;
+}
+
+.fal {
+    width: 15%;
+    position: absolute;
+    right: 9%;
+    top: 25%;
+}
+
+.face {
+    width: 3%;
+    position: absolute;
+    right: 21%;
+    top: 53%;
+}
+
+.insta {
+    width: 2.7%;
+    position: absolute;
+    right: 9%;
+    top: 53%;
+}
+
+.lin {
+    width: 3.4%;
+    position: absolute;
+    right: 14.9%;
+    top: 51%;
+}
+
+.l1 {
+    background-color: #466C06;
+    height: 70%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+}
+
+.l2 {
+    background-color: #466C06;
+    height: 70%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    right: 34%;
+    top: 10%;
+}
+
+.l3 {
+    background-color: #98B638;
+    height: 2%;
+    width: 30%;
+    border-radius: 50px;
+    position: absolute;
+    left: 69.5%;
+    top: -3.5%;
+    border: solid #98B638;
+}
+
+.l4 {
+    background-color: #466C06;
+    height: 2.5%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    left: 79.5%;
+    top: 0.5%;
+    border: solid #466C06;
+}
+
+.l5 {
+    background-color: #98B638;
+    height: 2%;
+    width: 30%;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -1%;
+    top: 92.6%;
+    border: solid #98B638;
+}
+
+.l6 {
+    background-color: #466C06;
+    height: 2%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    top: 88%;
+    border: solid #466C06;
+    margin-left: -1%;
+}
+
+
+
+
+
+/* footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }

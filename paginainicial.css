@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #b7e26113;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-device-width: 2000px) {
+    /* .menu { width:600px; } */
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #C4E47C;
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2a6c24b4;
+}
+
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #f0fadb;
+}
+
+.IMAGEMDOTOPO {
+    width: 8cm;
+}
+
+.IMAGEMDOLOGO {
+    width: 9cm;
+}
+
+
+.IMAGEMDAFOLHA2 {
+    width: 17cm;
+}
+
+
+.IMAGEMDAFOLHA1 {
+    width: 17cm;
+}
+
+.imagensFOLHA {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -300px;
+}
+
+.segundocabeçalho {
+    text-align: center;
+    font-size: 3cm;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0fadb;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #629826;
+    border-radius: 50px;
+    background-size: contain;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #2A6C24;
+    border-color: #ffffff;
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17%;
+}
+
+button a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #ffffff;
+}
+
+
+.DEGRADE1 {
+    color: #C4E47C;
+    background-color: #C4E47C;
+    height: 35px;
+}
+
+.DEGRADE2 {
+    color: #2a6c24b4;
+    background-color: #2a6c24b4;
+    height: 20px;
+}
+
+
+
+.senai {
+    margin-top: 2%;
+    width: 25%;
+}
+
+.bglhdosenai {
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+.títuloprojeto {
+    margin-top: 7%;
+    color: #000000;
+    font-size: 280%;
+    font-weight: bold;
+
+}
+
+.pfrase {
+    margin-top: 2%;
+    color: #000000;
+    font-style: italic;
+    font-size: 190%;
+}
+
+.corpodotexto {
+    color: #292929;
+    font-size: 130%;
+    margin: 5% 10% 0% 10%;
+}
+
+.imagemfolhafolha {
+    margin-top: 3%;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    color: #000000;
+}
+
+.divdotexto {
+    position: relative;
+    margin: -26% 50% 0% 2%;
+}
+
+.títuloprojeto2 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: #000000;
+    font-size: 280%;
+    font-weight: bold;
+
+}
+
+.container {
+    border: 10px solid transparent;
+}
+
+.sobrepgrs p {
+    margin-top: 20%;
+    color: #2A6C24;
+    font-size: 280%;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: underline
+}
+
+.sobrepgrs {
+    display: inline-block;
+    position: relative;
+    margin-left: 8%;
+    top: 125%;
+    height: 200px;
+    width: 40%;
+
+}
+
+.textodopgrs {
+    color: #000000;
+    font-size: 110%;
+    width: 50%;
+    position: relative;
+    margin: -22% 0% 2% 40%;
+}
+
+
+.textodopgrs a {
+    color: #000000;
+}
+
+.imagempoluição {
+    width: 100%
+}
+
+.imganimações img {
+    width: 250px;
+    height: 250px;
+    border-radius: 1%;
+    margin: 0% 3% 0% 0%;
+}
+
+.imganimações img:hover {
+    -webkit-box-shadow: 0px 0px 80px #000000;
+}
+
+
+.grupão {
+    border-radius: 200px;
+    width: 98%;
+    height: 30%;
+    border: 20px dotted #2a6c24;
+    margin-bottom: 0%;
+}
+
+
+
+mark {
+    color: #000000;
+    background-color: #2a6c2441;
+}
+
+.globo {
+    margin: 2% 0% 6% 33%;
+    width: 17%;
+    transition: all 3s;
+    cursor: pointer;
+
+}
+
+
+.globo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.apoieestacausa {
+    margin-top: 7.19%;
+    margin-bottom: 3%;
+}
+
+.apoieapoietitulo {
+    position: relative;
+    margin-top: 2%;
+    color: #000000;
+    font-size: 280%;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.apoieapoie {
+    color: #292929;
+    font-size: 130%;
+    width: 40%;
+    position: relative;
+    margin: -1% 0% 0% 5%;
+}
+
+.imagemong {
+    position: relative;
+    margin: -39% 0% 0% 60%;
+    width: 28%;
+    border-radius: 900%;
+}
+
+
+
+
+
+.linklink {
+    color: #000000;
+}
+
+html {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #CFFCB4;
+    height: 16em;
+    width: 100%;
+}
+.rodapepe {
+    background-color: #CFFCB4;
+    height: 16em;
+    width: 100%;
+    position: absolute;
+    top: 280%;
+}
+
+.imf {
+    width: 13%;
+    position: absolute;
+    left: 44%;
+    top: 0%;
+}
+
+.SENAIFIM {
+    position: absolute;
+    top: 15%;
+    margin-left: 12%;
+    width: 10%;
+}
+
+
+.prj {
+    width: 20%;
+    position: absolute;
+    left: 39.9%;
+    top: 65%;
+}
+
+.fal {
+    width: 15%;
+    position: absolute;
+    right: 9%;
+    top: 25%;
+}
+
+.face {
+    width: 3%;
+    position: absolute;
+    right: 21%;
+    top: 53%;
+}
+
+.insta {
+    width: 2.7%;
+    position: absolute;
+    right: 9%;
+    top: 53%;
+}
+
+.lin {
+    width: 3.4%;
+    position: absolute;
+    right: 14.9%;
+    top: 51%;
+}
+
+.l1 {
+    background-color: #466C06;
+    height: 70%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+}
+
+.l2 {
+    background-color: #466C06;
+    height: 70%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    right: 34%;
+    top: 10%;
+}
+
+.l3 {
+    background-color: #98B638;
+    height: 2%;
+    width: 30%;
+    border-radius: 50px;
+    position: absolute;
+    left: 69.5%;
+    top: 0.8%;
+    border: solid #98B638;
+}
+
+.l4 {
+    background-color: #466C06;
+    height: 2.5%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    left: 79.5%;
+    top: 4.5%;
+    border: solid #466C06;
+}
+
+.l5 {
+    background-color: #98B638;
+    height: 2%;
+    width: 30%;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -1%;
+    top: 94.9%;
+    border: solid #98B638;
+}
+
+.l6 {
+    background-color: #466C06;
+    height: 2%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    top: 90.5%;
+    border: solid #466C06;
+    margin-left: -1%;
+}
+
+
+
+
+
+/* footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+   
